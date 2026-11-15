@@ -1,0 +1,27 @@
+import type { CatalogEntry } from './types'
+
+export const catalog: CatalogEntry[] = [
+  { type: 'wall', name: 'Devor', category: 'structure', icon: '▰', width: 4, depth: 0.18, height: 2.8, color: '#e5ddd0', material: 'brick' },
+  { type: 'door', name: 'Eshik', category: 'structure', icon: '▯', width: 0.95, depth: 0.12, height: 2.1, color: '#9b6b45', material: 'wood' },
+  { type: 'window', name: 'Deraza', category: 'structure', icon: '▦', width: 1.4, depth: 0.12, height: 1.2, color: '#9ac2ce', material: 'glass' },
+  { type: 'balcony', name: 'Balkon', category: 'structure', icon: '▤', width: 2.2, depth: 1.1, height: 1, color: '#b7b9b8', material: 'metal' },
+  { type: 'stairs', name: 'Zinapoya', category: 'structure', icon: '▱', width: 1.3, depth: 2.4, height: 1.5, color: '#c4b8a7', material: 'concrete' },
+  { type: 'floor', name: 'Pol paneli', category: 'structure', icon: '▧', width: 4, depth: 4, height: 0.12, color: '#c7a77e', material: 'wood' },
+  { type: 'roof', name: 'Nishabli tom', category: 'structure', icon: '⌂', width: 8, depth: 6, height: 1.8, color: '#626b73', material: 'metal' },
+  { type: 'sofa', name: 'Divan', category: 'interior', icon: '▱', width: 2.2, depth: 0.9, height: 0.8, color: '#b9a58f', material: 'fabric' },
+  { type: 'bed', name: 'Yotoq', category: 'interior', icon: '▱', width: 2, depth: 1.6, height: 0.65, color: '#c5b7a4', material: 'fabric' },
+  { type: 'table', name: 'Stol', category: 'interior', icon: '⊞', width: 1.5, depth: 0.9, height: 0.75, color: '#a77c56', material: 'wood' },
+  { type: 'chair', name: 'Stul', category: 'interior', icon: '⌑', width: 0.55, depth: 0.55, height: 0.9, color: '#9b7354', material: 'wood' },
+  { type: 'kitchen', name: 'Oshxona', category: 'interior', icon: '▤', width: 2.8, depth: 0.65, height: 0.9, color: '#d8d6d1', material: 'concrete' },
+  { type: 'bath', name: 'Vanna', category: 'interior', icon: '▱', width: 1.7, depth: 0.75, height: 0.65, color: '#d6e5e6', material: 'glass' },
+  { type: 'desk', name: 'Ish stoli', category: 'interior', icon: '⊟', width: 1.4, depth: 0.7, height: 0.75, color: '#a77c56', material: 'wood' },
+  { type: 'wardrobe', name: 'Shkaf', category: 'interior', icon: '▥', width: 1.5, depth: 0.58, height: 2.1, color: '#9b7354', material: 'wood' },
+  { type: 'toilet', name: 'Hojatxona', category: 'interior', icon: '▱', width: 0.52, depth: 0.68, height: 0.45, color: '#edf1ee', material: 'tile' },
+  { type: 'tree', name: 'Daraxt', category: 'exterior', icon: '♧', width: 1.4, depth: 1.4, height: 3.2, color: '#607c59', material: 'grass' },
+  { type: 'pool', name: 'Basseyn', category: 'exterior', icon: '▤', width: 5, depth: 3, height: 0.55, color: '#74b8c5', material: 'glass' },
+  { type: 'garage', name: 'Garaj', category: 'exterior', icon: '⌂', width: 4, depth: 5.5, height: 2.7, color: '#b8b8b2', material: 'concrete' },
+  { type: 'car', name: 'Avtomobil', category: 'exterior', icon: '▰', width: 2.2, depth: 4.2, height: 1.2, color: '#71818a', material: 'metal' },
+  { type: 'fence', name: 'Zabor', category: 'exterior', icon: '▥', width: 4, depth: 0.12, height: 1.3, color: '#a88764', material: 'wood' },
+  { type: 'path', name: 'Yo‘lakcha', category: 'exterior', icon: '▰', width: 3, depth: 0.8, height: 0.08, color: '#b9b4ac', material: 'concrete' },
+  { type: 'lamp', name: 'Chiroq', category: 'exterior', icon: '⌁', width: 0.35, depth: 0.35, height: 2.1, color: '#d7bd77', material: 'metal' },
+]
